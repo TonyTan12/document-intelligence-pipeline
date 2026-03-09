@@ -1,0 +1,29 @@
+# Document Intelligence Pipeline Configuration
+
+# OCR Settings
+ocr:
+  dpi: 300                    # Resolution for PDF to image conversion
+  enhance_contrast: true      # Apply image enhancement
+  languages:
+    - eng                     # Primary OCR language
+  # Add more languages as needed:
+  # - fra                     # French
+  # - spa                     # Spanish
+  # - deu                     # German
+
+# AI Extraction Settings
+extraction:
+  model: gpt-4o-mini          # OpenAI model for extraction
+  max_tokens: 2000            # Max response tokens
+  temperature: 0.1            # Lower = more consistent results
+  
+# API Settings
+api:
+  max_file_size: 52428800     # 50MB in bytes
+  batch_size_limit: 10        # Max files per batch upload
+  request_timeout: 60         # Seconds
+  
+# Logging
+logging:
+  level: INFO                 # DEBUG, INFO, WARNING, ERROR
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
