@@ -29,6 +29,7 @@
 The Document Intelligence Pipeline automates the extraction of structured data from unstructured documents. Using advanced OCR technology and natural language processing, the system processes invoices, contracts, forms, and other business documents with high accuracy—saving hours of manual data entry.
 
 **Built by:** Tony Tan
+
 **Purpose:** Demonstrate end-to-end AI product development for enterprise document processing
 
 ### What Problem Does This Solve?
@@ -45,7 +46,7 @@ This pipeline solves all four problems with AI-powered extraction and validation
 
 ## Why I Built This
 
-As an AI Product Manager, I wanted to showcase:
+I wanted to showcase:
 
 1. **Real-World AI Application** - Solves actual business pain points
 2. **Full Product Development** - From problem to deployed solution
