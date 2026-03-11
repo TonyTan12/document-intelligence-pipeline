@@ -28,7 +28,7 @@
 
 The Document Intelligence Pipeline automates the extraction of structured data from unstructured documents. Using advanced OCR technology and natural language processing, the system processes invoices, contracts, forms, and other business documents with high accuracy—saving hours of manual data entry.
 
-**Built by:** Tony Tan, AI Product Manager at EY  
+**Built by:** Tony Tan
 **Purpose:** Demonstrate end-to-end AI product development for enterprise document processing
 
 ### What Problem Does This Solve?
@@ -529,5 +529,4 @@ MIT License
 ---
 
 **Built by [Tony Tan](https://github.com/TonyTan12)**  
-AI Product Manager | EY  
 📧 Tonytan1999aol@gmail.com
